@@ -4,13 +4,13 @@
   "description": "Test solidity contract.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "catonmat",
   "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.10.2",
-    "mocha": "^8.1.3",
+    "mocha": "^4.1.0",
     "solc": "^0.4.25",
     "web3": "^1.0.0-beta.26"
   }

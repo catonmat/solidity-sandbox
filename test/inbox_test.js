@@ -26,7 +26,7 @@ describe('Inbox', () => {
     assert.ok(inbox.options.address);
   });
 
-  it('hasa default message', async () => {
+  it('has a default message', async () => {
     const message = await inbox.methods.message().call();
     assert.strictEqual(message, INITIAL_STRING);
   });

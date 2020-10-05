@@ -7,7 +7,7 @@ const provider = new HDWalletProvider(
   process.env.WALLET_SEED,
   process.env.INFURA_ENDPOINT
 );
-const web3 = new Web3(provider, 42);
+const web3 = new Web3(provider);
 
 const deploy = async () => {
   const accounts = await web3.eth.getAccounts();
